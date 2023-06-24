@@ -57,4 +57,28 @@ once you press enter key, you will get another suggestion to continue.
 
 ![](images/5.png)
 
+Enter comment "# send request to openweathermap", and continue with the below flow.
+
+![](images/6.png)
+
+"# check if request is successful"
+![](images/7.png)
+
+"# convert response to json"
+and
+"# extract temperature and description"
+
+![](images/8.png)
+
+Now from here the real intelligence  of copilot starts, as I mentioned earlier that I am going to print some words instead of metrics, I also thought of adding emojis along with that.
+
+Printing emojis on console is fun too!
+
+so to continue with the above our comment for copilot is as below
+
+"# print emojis based on weather description", and the suggestion is:
+
+![](images/9.png)
+![](images/10.png)
+![](images/11.png)
 
