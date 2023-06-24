@@ -51,7 +51,8 @@ else:
     temp_emoji = "😊"
 
 
-print(f"The weather in {city} is: {description} | {emoj} | {temperature}°C  {temp_emoji}")
+print(f"The weather in {city} is  :                {description}  {emoj}")
+print(f"Temperature               :                {temperature_fahrenheit}°F  {temp_emoji}")
 
 # print emojis based on humidity
 humidity = data["main"]["humidity"]
@@ -63,7 +64,7 @@ elif humidity > 60:
 else:
     humidity_emoji = "Wet 😐"
 
-print(f"The humidity is: {humidity}% {humidity_emoji}")
+print(f"The humidity is           :                {humidity}% | {humidity_emoji}")
 
 # print emojis based on wind speed
 wind_speed = data["wind"]["speed"]
@@ -75,7 +76,7 @@ elif wind_speed > 30:
 else:
     wind_emoji = "Calm 🌬"
 
-print(f"The wind speed is: {wind_speed} {wind_emoji}")
+print(f"The wind speed is         :                {wind_speed} | {wind_emoji}")
 
 # print emojis based on pressure
 pressure = data["main"]["pressure"]
@@ -87,7 +88,7 @@ elif pressure > 1030:
 else:
     pressure_emoji = "Normal 😐"
 
-print(f"The pressure is: {pressure} {pressure_emoji}")
+print(f"The pressure is           :                {pressure} | {pressure_emoji}")
 
 # print emojis based on visibility
 visibility = data["visibility"]
@@ -99,7 +100,7 @@ elif visibility > 10000:
 else:
     visibility_emoji = "Normal 👀"
 
-print(f"The visibility is: {visibility} {visibility_emoji}")
+print(f"The visibility is         :                {visibility} | {visibility_emoji}")
 
 # print emojis based on cloudiness
 cloudiness = data["clouds"]["all"]
@@ -111,7 +112,7 @@ elif cloudiness > 60:
 else:
     cloudiness_emoji = "Partly cloudy ⛅"
 
-print(f"The cloudiness is: {cloudiness}% {cloudiness_emoji}")
+print(f"The cloudiness is         :                {cloudiness}% | {cloudiness_emoji}")
 
 # print emojis based on sunrise
 sunrise = data["sys"]["sunrise"]
@@ -127,7 +128,7 @@ else:
     sunrise_emoji = "Normal time 🌄"
 
 
-print(f"The sunrise is: {sunrise.hour}:{sunrise.minute}:{sunrise.second} {sunrise_emoji}")
+print(f"The sunrise is            :                {sunrise.hour}:{sunrise.minute}:{sunrise.second} | {sunrise_emoji}")
 
 # print emojis based on sunset
 sunset = data["sys"]["sunset"]
@@ -143,4 +144,4 @@ else:
     sunset_emoji = "Normal time 🌄"
 
 
-print(f"The sunset is: {sunset.hour}:{sunset.minute}:{sunset.second} {sunset_emoji}")
+print(f"The sunset is             :                {sunset.hour}:{sunset.minute}:{sunset.second} | {sunset_emoji}")
