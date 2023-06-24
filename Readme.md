@@ -84,3 +84,11 @@ so to continue with the above our comment for copilot is as below
 ![](images/10.png)
 ![](images/11.png)
 
+
+as you can see the GitHub Copilot intelligently adds a support word with emoji.
+
+I am pasting some more images below just for the demonstration purpose of copilot.
+
+![](images/13.png)
+![](images/14.png)
+![](images/15.png)
