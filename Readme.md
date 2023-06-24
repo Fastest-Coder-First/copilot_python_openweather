@@ -1,3 +1,5 @@
+![](images/output.png)
+
 ### This project was developed at Fastest Coder Hackathon organized by Microsoft at Gurgaon, to demonstrate the use of Github Copilot.
 
 ---
